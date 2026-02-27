@@ -20,6 +20,10 @@ h1, h2, .navbar-brand {
   gap: 1.5rem;                
   flex-wrap: nowrap;
 }
+.navbar button:hover,
+.navbar a:hover {
+  background: #b71c1c;
+}
 nav{
     flex: 1;
     text-align: right;
