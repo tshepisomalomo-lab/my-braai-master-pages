@@ -106,3 +106,10 @@ p{
 .col-4 img{
     width: 100%;
 }
+.title{
+    text-align: center;
+    margin:0 auto 80px ;
+    position: relative;
+    color: #555;
+    line-height: 60px;
+}
