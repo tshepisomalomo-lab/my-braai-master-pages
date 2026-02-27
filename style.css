@@ -173,7 +173,7 @@ h4{
 .footer p{
     color: #8a8a8a;
 }
-.footer h3{
+.footer h3, .footer h4 {
     color: #fff;
     margin-bottom: 20px;
 }
