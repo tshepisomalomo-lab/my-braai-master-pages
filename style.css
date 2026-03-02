@@ -60,15 +60,15 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.col2{
+.col-2{
     flex-basis: 50%;
     min-width: 300px;
 }
-.col2 img{
+.col-2 img{
     max-width: 100%;
     padding: 50px 0;
 }
-.col2 h1{
+.col-2 h1{
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
