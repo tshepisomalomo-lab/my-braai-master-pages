@@ -291,3 +291,13 @@ select:focus{
         flex-basis: 100%;
     }
 }
+/*-------single product details-------*/
+.single product{
+    margin-top: 80px;
+}
+.single product .col-2 img{
+   padding: 0; 
+}
+.single product .col-2{
+    padding: 20px;
+}
