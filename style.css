@@ -11,10 +11,6 @@
   gap: 1.5rem;                
   flex-wrap: nowrap;
 }
-.navbar button:hover,
-.navbar a:hover {
-  background: #b71c1c;
-}
 nav{
     flex: 1;
     text-align: right;
@@ -26,6 +22,10 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+}
+.navbar button:hover,
+.navbar a:hover {
+  background: #b71c1c;
 }
 body {
     font-family: 'Poppins', sans-serif;
