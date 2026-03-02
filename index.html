@@ -14,7 +14,7 @@
              <img src="images/braai master.jpg" width="125px">
              </div>
              <nav>
-              <ul>
+              <ul MenuItems>
                 <li><a href="product.html"></a>Products</li>
                 <li><a href="contact.html"></a>Contact</li>
                 <li><a href="about.html"></a>About</li>
@@ -22,7 +22,7 @@
                </ul>
              </nav>
              <img src="images/basket.png" width="30px" height="30px">
-             <img src="images/menu.png" class="menu-icon">
+             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
      </div>
       <div class="row">
@@ -195,5 +195,22 @@
          <p class="copyright">CopyRight 2026-BRAAI MASTER</p>
         </div>
      </div>
+     <!----------js for toggle menu---------->
+     <script>
+        var MenuItems= document.getElementById("MenuItems")
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+        }
+     </script>
 </body>
 </html>
