@@ -1,4 +1,120 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - The Braai Master</title>
+    <link rel="stylesheet" href="style.css">  <!-- Your existing stylesheet -->
+</head>
+<body>
+
+    <!-- Header/Navbar (copy-paste from your index.html for consistency) -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/braai master.jpg" width="125px" alt="The Braai Master Logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>  <!-- Change to your main file name if different -->
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/menu icon.webp" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Content -->
+    <div class="small-container">
+        <h2>About The Braai Master</h2>
+        <p><strong>Your Number 1 Plug for Spices, Alcohol, and Shisa Nyama Essentials – Grilled to Perfection!</strong></p>
+
+        <div class="row">
+            <div class="col-2">
+                <img src="images/braai.jpg" width="100%" alt="Friends enjoying a braai">
+                <!-- Optional: Add more images like spices, meat on grill, or cold drinks -->
+            </div>
+            <div class="col-2">
+                <p>Welcome to <strong>The Braai Master</strong> – where the spirit of the South African braai meets Botswana vibes. We're more than just an online store; we're your go-to source for everything you need to host an epic braai, shisa nyama, or weekend chill session.</p>
+
+                <p>Founded with a passion for quality cuts, bold spices, and ice-cold drinks, we bring the best of traditional braai culture right to your doorstep in Gaborone and beyond. From juicy T-bone steaks and boerewors to premium gins like Tanqueray, savannahs, coronas, and local favourites – we've got it all at prices that make the good life accessible to everyone.</p>
+
+                <h3>Our Mission</h3>
+                <p>To make every gathering unforgettable. Whether it's a family shisa nyama with pap and chakalaka, a mates' night with cold ones around the fire, or just stocking up on spices and rubs for your next grill – we're here to deliver quality, flavour, and convenience without the hassle.</p>
+
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>Premium meats & boerewors – fresh, well-marbled, and ready to braai</li>
+                    <li>Authentic braai spices & rubs – homemade blends and top brands for that perfect smoky kick</li>
+                    <li>Wide range of alcohols – from crisp beers and ciders to premium spirits like Tanqueray Gin, Hennessy, and more</li>
+                    <li>Shisa nyama combos – quick bundles for effortless entertaining</li>
+                </ul>
+
+                <p>Quality Cuts & Cold Ones – Making the Good Life Accessible to Everyone.</p>
+
+                <p>We're proud to celebrate the braai tradition: fire, friends, laughter, and food that brings people together. Let's fire up the grill!</p>
+            </div>
+        </div>
+
+        <!-- Optional: Add a founder story or values section -->
+        <div style="margin-top: 40px; text-align: center;">
+            <h3>Why Choose The Braai Master?</h3>
+            <p>Fast local delivery in Gaborone • Fresh stock daily • Best prices for real braai lovers • Passionate about flavour and fun</p>
+        </div>
+    </div>
+
+    <!-- Footer (copy from your index.html) -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and iOS mobile phone</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3><img src="images/braai master.jpg" alt="Logo"></h3>
+                    <p>Quality Cuts & Cold Ones – Making the Good Life Accessible to Everyone</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliates</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>X</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2026 - THE BRAAI MASTER</p>
+        </div>
+    </div>
+
+    <!--------js for toggle menu---------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
